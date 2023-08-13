@@ -1,0 +1,67 @@
+body{
+    background-color: beige;
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    background-color: rgb(119, 119, 232);
+    text-align: center;
+    font-size: xx-large;
+
+
+}
+#main{
+    width: 40%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(5, 245, 61);
+    display: inline-block;
+    margin-left: 300px;
+    text-align: center;
+    font-size: xx-large;
+
+}
+#sidebar{
+    width: 20%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(225, 5, 245);
+    display: inline-block;
+    text-align: center;
+    font-size: xx-large;
+}
+#twin1{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(245, 149, 5);
+    display: inline-block;
+    margin-left: 300px;
+    text-align: center;
+    font-size: xx-large;    
+}
+
+    #twin2{
+        width: 30%;
+        height: 200px;
+        border: 1px solid black;
+        display: inline-block;
+    background-color: rgb(245, 149, 5);
+    text-align: center;
+    font-size: xx-large;        
+}
+    
+#footer{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    background-color: rgb(15, 15, 236);
+    text-align: center;
+    font-size: xx-large;
+}
+#header:hover,#main:hover,#sidebar:hover,#twin1:hover,#twin2:hover,#footer:hover{
+
+    background-color: chocolate;
+}
